@@ -1,0 +1,62 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+/* All Common CSS End */
+
+/* Header Part start */
+#headerPart{
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu ul li a{
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.headerBtn a{
+    border: 1px solid #417D6E;
+    padding: 10px;
+    border-radius: 500px;
+    color: #242B36;
+    font-size: 16px;
+    font-weight: 400px;
+    transition: all  linear 0.4s;
+}
+.headerBtn a:hover{
+    background: #007456;
+    color: #fff;
+}
+/* Header Part End */
+
+/* banner part start */
+#bannerPart{
+    padding-top: 180px;
+    padding-bottom: 95px;
+}
+/* banner part end */
